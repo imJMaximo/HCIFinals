@@ -1,0 +1,12 @@
+h1{
+	color: white;
+	text-align: center;
+}
+body {
+  background: #060e1b;
+  overflow: hidden;
+}
+
+canvas {
+  //opacity: 0.5;
+}
