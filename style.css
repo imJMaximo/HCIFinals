@@ -1,12 +1,33 @@
-h1{
-	color: white;
-	text-align: center;
-}
+
 body {
   background: #060e1b;
   overflow: hidden;
 }
 
-canvas {
-  //opacity: 0.5;
+.header{
+	position: fixed;
+	color: white;
+}
+h1{
+	text-align: center;
+	margin-left: 535px;
+}
+.menu, li{
+	margin-left: 550px;
+	margin-top: -20px;
+ 	float: left;
+	position: relative;
+}
+
+.learn, .play{
+	margin: 9px;
+	padding: 8px;
+	background-color: purple;
+	border-color: black;
+	border: 3px;
+}
+.sun{
+	position: absolute;
+	top: 150px;
+	left: -300px;
 }
