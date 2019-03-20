@@ -20,14 +20,71 @@ h1{
 }
 
 .learn, .play{
-	margin: 9px;
+	background-color: #33708f;
+ 	border:2px solid white;
 	padding: 8px;
 	background-color: purple;
-	border-color: black;
-	border: 3px;
+	font-size:18px;
+  	color:white;
+  	position:absolute;
+  	left:550px;
+  	cursor: pointer;
+}
+.play{
+	position: absolute;
+	left: 700px;
 }
 .sun{
 	position: absolute;
-	top: 150px;
-	left: -300px;
+	top: -40px;
+	left: -580px;
+	cursor: pointer;
+}
+.mercury{
+	position: absolute;
+	top: 350px;
+	left: 212px;
+	cursor: pointer;
+}
+.venus{
+	position: absolute;
+	top: 335px;
+	left: 276px;
+	cursor: pointer;
+}
+.earth{
+	position: absolute;
+	top: 332px;
+	left: 359px;
+	cursor: pointer;
+}
+.mars{
+	position: absolute;
+	top: 345px;
+	left: 448px;
+	cursor: pointer;
+}
+.jupiter{
+	position: absolute;
+	top: 230px;
+	left: 550px;
+	cursor: pointer;
+}
+.saturn{
+	position: absolute;
+	top: 245px;
+	left: 800px;
+	cursor: pointer;
+}
+.uranus{
+	position: absolute;
+	top: 280px;
+	left: 1140px;
+	cursor: pointer;
+}
+.neptune{
+	position: absolute;
+	top: 318px;
+	left: 1250px;
+	cursor: pointer;
 }
