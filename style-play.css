@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -7,8 +6,10 @@ body {
 }
 .quiz-container {
   position: relative;
-  top: 180px;
+  top: 170px;
   left: 400px;
+  align-items: center;
+  align-content: center;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
   text-shadow: 1px 1px white;
   padding: 3rem;
@@ -21,8 +22,8 @@ body {
 }
 .title {
   margin-top: 0;
-  margin-bottom: 3rem;
-  color: #00000050;
+  margin-bottom: 1rem;
+  color: black;
   font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
@@ -72,7 +73,7 @@ button.restart {
   color: #00000050;
   font-size: 2rem;
   margin-bottom: 1rem;
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 button.restart:hover {
   color: #00000098;
@@ -93,21 +94,18 @@ button:focus {
   font-size: 2.5rem;
   min-height: 100vh;
 }
-.final-score {
-  color: #00000099;
-}
 .summary {
   font-size: 1rem;
-  text-shadow: 1px 1px #ffffff50;
+  text-shadow: 1px 1px black;
   color: black;
-  background: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(400deg, transparent, #ffffff);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0 2rem;
   margin-bottom: 2rem;
 }
 .summary h1 {
   align-self: center;
+  justify-content: center;
 }

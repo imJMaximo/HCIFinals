@@ -30,7 +30,7 @@ const questions = [
     "answer3Total": "0"
   },
   {
-    "question": "What planet is nicknamed the ‘Red Planet’?",
+    "question": "What planet is nicknamed the \'Red Planet'?",
     "answer1": "Neptune.",
     "answer1Total": "0",
     "answer2": "Sun",
@@ -66,8 +66,8 @@ const questions = [
     "answer2Total": "0",
     "answer3": "12 hours",
     "answer3Total": "0"
-  }
-  /*{
+  },
+  {
     "question": "Where is the main asteroid belt in the Solar System?",
     "answer1": "Between Earth and Mars",
     "answer1Total": "0",
@@ -75,7 +75,7 @@ const questions = [
     "answer2Total": "0",
     "answer3": "Between Mars and Jupiter",
     "answer3Total": "1"
-  }
+  },
   {
     "question": "How many moons does Mars have?",
     "answer1": "1",
@@ -84,7 +84,7 @@ const questions = [
     "answer2Total": "1",
     "answer3": "4",
     "answer3Total": "0"
-  }
+  },
   {
     "question": "Which planet has the most moons?",
     "answer1": "Uranus",
@@ -93,7 +93,7 @@ const questions = [
     "answer2Total": "0",
     "answer3": "Jupiter",
     "answer3Total": "1"
-  }*/
+  }
 ]
 
 
@@ -161,16 +161,16 @@ function loadNextQuestion () {
     if(currentQuestion == totalQuestions) {
         container.style.display = 'none';
         result.innerHTML =
-         `<h1 class="final-score">Your score: ${totalScore}</h1>
+         `<h1 class="final-score"></h1>
          <div class="summary">
             <h1>Summary</h1>
-            <p>Your score states that:</p>
+            <h1>Your score: ${totalScore}</h1>
             <p>8 - 10: You're a genius!</p>
             <p>6 - 7: You pass!</p>
             <p>3 - 5: Study harder! </p>
             <p>0 - 2: Learn again and try harder!</p>
         </div>
-        <button class="restart">Restart Quiz</button>
+        <button class="restart"> Restart Quiz </button>
          `;
         return;
     }
