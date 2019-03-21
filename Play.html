@@ -10,13 +10,43 @@
 			
 			<a href = "Learn.html"><button class="learn"> LEARN </button></a>
   			<a href = "Play.html"><button class="play"> PLAY </button></a>
-  			<br>
-  			<br>
   			<h3>(Click the bullet of the correct answer)</h3>
 		</div>
 
-		<canvas id="canvas"></canvas>
-		<script src="script.js"></script>
+		<div class="quiz-container">
 
+        	<div class="title">
+        		Space Quiz
+        	</div>
+
+        	<div id="question" class="question"></div>
+        	
+        	<label class="option">
+            	<input type="radio" name="option" value="1" />
+            	<span class="option1"></span>
+        	</label>
+
+        	<label class="option">
+            	<input type="radio" name="option" value="2" />
+            	<span class="option2"></span>
+        	</label>
+
+        	<label class="option">
+            	<input type="radio" name="option" value="3" />
+            	<span class="option3"></span>
+        	</label>
+
+        	<!-- Buttons -->
+       		<div class="controls">
+            	<button class="previous">Previous</button>
+            	<button class="next">Next</button>
+        	</div>
+    	</div>
+
+    	<div class="result">
+
+    	</div>
+
+		<script src="script.js"></script>
 	</body>
 </html>

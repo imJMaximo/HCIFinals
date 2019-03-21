@@ -11,6 +11,7 @@ body {
 h1, h3{
 	text-align: center;
 	margin-left: 535px;
+  font-family: "BatangChe";
 }
 .menu, li{
 	margin-left: 550px;
@@ -26,8 +27,12 @@ h1, h3{
 	font-size:18px;
   	color:black;
   	position:absolute;
-  	left:590px;
+  	left:670px;
   	cursor: pointer;  	
+}
+.play{
+  position: absolute;
+  left: 660px;
 }
 .learn{
   display: inline-block;
@@ -109,10 +114,7 @@ h1, h3{
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
-.play{
-	position: absolute;
-	left: 740px;
-}
+
 .sun{
 	position: absolute;
 	top: -40px;
