@@ -121,6 +121,11 @@ h1, h3{
 	left: -580px;
 	cursor: pointer;
 }
+.asteroid{
+	position: absolute;
+	top: -150px;
+	left: -400px;
+}
 .mercury{
 	position: absolute;
 	top: 350px;
@@ -145,6 +150,7 @@ h1, h3{
 	left: 448px;
 	cursor: pointer;
 }
+
 .jupiter{
 	position: absolute;
 	top: 230px;
