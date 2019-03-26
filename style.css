@@ -13,12 +13,6 @@ h1, h3{
 	margin-left: 535px;
   font-family: "BatangChe";
 }
-.menu, li{
-	margin-left: 550px;
-	margin-top: -20px;
- 	float: left;
-	position: relative;
-}
 
 .learn, .play{
 	background-color: #33708f;

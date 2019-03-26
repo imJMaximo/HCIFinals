@@ -1,0 +1,110 @@
+
+body {
+  background: #060e1b;
+  overflow: hidden;
+}
+
+.header{
+	position: absolute;
+	color: white;
+}
+.tophead{
+	position: absolute;
+	color: white;
+	font-family: "Aharoni";
+	font-size: 80px;
+	font-weight: 20px;
+	left: 500px;
+}
+
+h1, h3{
+	text-align: center;
+	margin-left: 535px;
+  font-family: "BatangChe";
+}
+
+.close{
+	background-color: #33708f;
+ 	border:2px solid white;
+	padding: 8px;
+	font-size:18px;
+  	color:black;
+  	position:absolute;
+  	top: 0px;
+  	left: 1260px;
+  	cursor: pointer;  	
+}
+.close{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: red;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.close:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #e1e1e1;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.close:hover, .close:focus, .close:active {
+  color: white;
+}
+.close:hover:before, .close:focus:before,  .close:active:before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+.pic{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	float: left;
+}
+.uranus{
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	float: left;
+}
+.container{
+	position: absolute;
+	top: 120px;
+	right: 120px;
+  	padding: 20px;
+  	width: 40%;
+  	min-height: 40%;
+  	background-color: #574C56;
+  	border: 1px solid black;
+  	opacity: 0.8;
+  	filter: alpha(opacity=60);
+}
+p{
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+li{
+	font-weight: bold;
+	font-size: 20px;
+	color: white
+}
