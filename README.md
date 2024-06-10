@@ -1,4 +1,4 @@
-# HCIFinals
+# Interactive Solar System Web App
 Website/WEB App Project
 
   The website is all about solar system. It is a site is suitable for kids to learn about the solar system. It has two menus/pages/parts:
