@@ -6,4 +6,4 @@ Website/WEB App Project
     2. Play page - in this page, you will take a short quiz about the solar system. So you will know how much you have learned.
     
  
-Deployed in Netlify: https://simplesolarsystem.netlify.com
+Deployed in Netlify: https://simplesolarsystem.netlify.app
